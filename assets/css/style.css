@@ -1,0 +1,48 @@
+.low {
+  color: green;
+}
+
+.moderate {
+  color: yellow;
+}
+
+.high {
+  color: red;
+}
+
+h1,
+h3 {
+  text-align: center;
+  background-color: blue;
+  background-image: linear-gradient(45deg, blue 0%, lightblue 90%);
+  color: white;
+}
+
+.btn {
+  background-color: blue;
+  background-image: linear-gradient(180deg, blue 10%, lightblue 50%);
+  border: 1px solid black;
+}
+
+#searchBox {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.forecastCard {
+  border: 1px solid black;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#display,
+.forecastCard {
+  border: 1px black solid;
+  background-color: lightgray;
+}
+
+.forecastCard {
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
