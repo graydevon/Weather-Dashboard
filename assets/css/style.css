@@ -14,13 +14,13 @@ h1,
 h3 {
   text-align: center;
   background-color: blue;
-  background-image: linear-gradient(45deg, blue 0%, lightblue 90%);
+  background-image: linear-gradient(45deg, rgb(41, 153, 213) 0%, rgb(1, 13, 17) 90%);
   color: white;
 }
 
 .btn {
   background-color: blue;
-  background-image: linear-gradient(180deg, blue 10%, lightblue 50%);
+  background-image: linear-gradient(180deg, rgb(60, 140, 189) 10%, lightblue 50%);
   border: 1px solid black;
 }
 
