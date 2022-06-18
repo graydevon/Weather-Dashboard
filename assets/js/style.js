@@ -8,8 +8,8 @@ var city;
 
 //to get location of city
 var getLocation = function (city) {
-    var queryURL = 'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={62df97dad542aecffdabda6ba9e1ae5f}';
-
+    var queryURL = 'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=62df97dad542aecffdabda6ba9e1ae5f';
+ 
 //to get previous searched cities
 var retrieveCities = function () {
     var retrievedCity = localStorage.getItem("newCty");
